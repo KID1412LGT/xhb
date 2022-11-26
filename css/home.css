@@ -1,0 +1,155 @@
+body {
+  margin: 0;
+  background-color: #eee;
+  height: 100vh;
+}
+
+* {
+  border: 1px solid black;
+}
+
+#home_page {
+  display: flex;
+  flex-direction: column;
+}
+
+#home_header {
+  height: 80px;
+  /* position: fixed; */
+  padding: 0 15% 0 15%;
+  background-color: blanchedalmond;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#home_content {
+  height: 2560px;
+  width: 60%;
+  background-color: white;
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+#bottom {
+  height: 200px;
+}
+
+#header_left {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+
+#header_right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.left_nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style: none;
+}
+
+.logo {
+  height: 80px;
+  width: 200px;
+  align-self: center;
+}
+
+.header_nav1 {
+  font-size: 20px;
+  margin: 15px 0px 15px 30px;
+}
+
+.header_nav2 {
+  font-size: 18px;
+  margin: 20px 40px 20px 0px;
+}
+
+.photo {
+  width: 50px;
+  height: 50px;
+  align-self: center;
+}
+
+#home_show {
+  height: 350px;
+  display: flex;
+  flex-direction: row;
+}
+
+#home_scroll {
+  display: flex;
+  flex: 3;
+  flex-direction: column;
+}
+
+#home_function {
+  display: flex;
+  flex: 2;
+  flex-direction: column;
+}
+
+#home_luck {
+  display: flex;
+  flex: 3;
+}
+
+#home_search {
+  display: flex;
+  flex: 1;
+}
+
+#home_food {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.classify {
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+}
+
+#message {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.item {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+
+.food_card {
+  margin-top: 20px;
+  height: 150px;
+  display: flex;
+}
+
+#tools {
+  margin: 20px;
+  width: 30%;
+  height: 350px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#scroll_photo {
+  flex: 6;
+}
+
+#scroll_switch {
+  flex: 1;
+}
